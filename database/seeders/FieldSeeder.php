@@ -850,73 +850,73 @@ class FieldSeeder extends Seeder
             [
                 'id' => 138,
                 'name' => 'contact_us_en',
-                'value' => 'contact_us_en',
+                'value' => 'CONTACT US',
             ],
 
             [
                 'id' => 139,
                 'name' => 'contact_us_ua',
-                'value' => 'contact_us_ua',
+                'value' => 'КОНТАКТИ',
             ],
 
             [
                 'id' => 140,
                 'name' => 'contact_us_ru',
-                'value' => 'contact_us_ru',
+                'value' => 'КОНТАКТЫ',
             ],
 
             [
                 'id' => 141,
                 'name' => 'contact_us_de',
-                'value' => 'contact_us_de',
+                'value' => 'KONTAKT',
             ],
 
             [
                 'id' => 142,
                 'name' => 'contact_company_name_en',
-                'value' => 'contact_company_name_en',
+                'value' => 'PolygoNerds',
             ],
 
             [
                 'id' => 143,
                 'name' => 'contact_company_name_ua',
-                'value' => 'contact_company_name_ua',
+                'value' => 'PolygoNerds',
             ],
 
             [
                 'id' => 144,
                 'name' => 'contact_company_name_ru',
-                'value' => 'contact_company_name_ru',
+                'value' => 'PolygoNerds',
             ],
 
             [
                 'id' => 145,
                 'name' => 'contact_company_name_de',
-                'value' => 'contact_company_name_de',
+                'value' => 'PolygoNerds',
             ],
 
             [
                 'id' => 146,
                 'name' => 'contact_location_en',
-                'value' => 'contact_location_en',
+                'value' => 'Ukraine, Kharkiv, 66 Chernyshevskaya Street',
             ],
 
             [
                 'id' => 147,
                 'name' => 'contact_location_ua',
-                'value' => 'contact_location_ua',
+                'value' => 'Україна, Харків, вулиця Чернишевська, 66',
             ],
 
             [
                 'id' => 148,
                 'name' => 'contact_location_ru',
-                'value' => 'contact_location_ru',
+                'value' => 'Украина, Харьков, улица Чернышевского, 66',
             ],
 
             [
                 'id' => 149,
                 'name' => 'contact_location_de',
-                'value' => 'contact_location_de',
+                'value' => 'Ukraine, Charkiv, Tschernyschewskaja-Straße 66',
             ],
 
             [
@@ -933,30 +933,36 @@ class FieldSeeder extends Seeder
 
             [
                 'id' => 152,
+                'name' => 'contact_email_link',
+                'value' => 'mailto:info@polygonerds.com',
+            ],
+
+            [
+                'id' => 153,
                 'name' => 'telegram',
                 'value' => 'http://poly.fury-dev.com/?1',
             ],
 
             [
-                'id' => 153,
+                'id' => 154,
                 'name' => 'artstation',
                 'value' => 'http://poly.fury-dev.com/?2',
             ],
 
             [
-                'id' => 154,
+                'id' => 155,
                 'name' => 'instagram',
                 'value' => 'http://poly.fury-dev.com/?3',
             ],
 
             [
-                'id' => 155,
+                'id' => 156,
                 'name' => 'linkedin',
                 'value' => 'http://poly.fury-dev.com/?4',
             ],
 
             [
-                'id' => 156,
+                'id' => 157,
                 'name' => 'facebook',
                 'value' => 'http://poly.fury-dev.com/?5',
             ],
@@ -964,19 +970,19 @@ class FieldSeeder extends Seeder
             // Video
 
             [
-                'id' => 157,
+                'id' => 158,
                 'name' => 'video_mp4',
                 'value' => 'video/poly.mp4',
             ],
 
             [
-                'id' => 158,
+                'id' => 159,
                 'name' => 'video_webm',
                 'value' => 'video/poly.webm',
             ],
 
             [
-                'id' => 159,
+                'id' => 160,
                 'name' => 'bg_image_jpg',
                 'value' => 'video/poly.jpg',
             ],

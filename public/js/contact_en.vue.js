@@ -86,7 +86,7 @@ const Contact = {
 
         '<hr size="5" class="w-25 my-1 mb-4 rounded-pill" style="opacity: 1;">\n' +
 
-        '<a class="text-white text-decoration-none" href = "mailto: {{ email }}">Email: {{ email }}</a>\n' +
+        '<a class="text-white text-decoration-none" v-bind:href="email_link">Email: {{ email }}</a>\n' +
 
         '</div>\n' +
         '</div>' +
@@ -122,6 +122,7 @@ const Contact = {
             company_name: '',
             location_text: '',
             email: '',
+            email_link: '',
             social_1: '',
             social_2: '',
             social_3: '',
@@ -153,12 +154,14 @@ const Contact = {
                     this.company_name = res.fields.contact_company_name_en;
                     this.location_text = res.fields.contact_location_en;
                     this.email = res.fields.contact_email;
+                    this.email_link = res.fields.contact_email_link;
                     this.social_1 = res.fields.telegram;
                     this.social_2 = res.fields.artstation;
                     this.social_3 = res.fields.instagram;
                     this.social_4 = res.fields.linkedin;
                     this.social_5 = res.fields.facebook;
                     this.map_src = res.fields.map_link;
+                    console.log(res.fields);
                 })
         }
     }

@@ -805,12 +805,12 @@ class FieldPageSeeder extends Seeder
                 'page_id' => 7,
             ],
 
-            // VIDEO
-
             [
                 'field_id' => 157,
-                'page_id' => 8,
+                'page_id' => 7,
             ],
+
+            // VIDEO
 
             [
                 'field_id' => 158,
@@ -819,6 +819,11 @@ class FieldPageSeeder extends Seeder
 
             [
                 'field_id' => 159,
+                'page_id' => 8,
+            ],
+
+            [
+                'field_id' => 160,
                 'page_id' => 8,
             ],
         ]);
