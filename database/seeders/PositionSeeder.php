@@ -15,24 +15,54 @@ class PositionSeeder extends Seeder
     {
         DB::table('positions')->insert([
             [
-                'name_en' => 'Job 1',
-                'name_ua' => 'Job 1',
-                'name_ru' => 'Job 1',
-                'name_de' => 'Job 1',
+                'name_en' => 'Background CG Artist',
+                'name_ua' => 'Background CG Artist',
+                'name_ru' => 'Background CG Artist',
+                'name_de' => 'Background CG Artist',
+
+                'description_en' => 'Job description: back ground design / creation using various CG',
+                'description_ua' => 'Job description: back ground design / creation using various CG',
+                'description_ru' => 'Job description: back ground design / creation using various CG',
+                'description_de' => 'Job description: back ground design / creation using various CG',
+
+                'software_en' => 'Software: CINEMA 4D, Houdini, Blender, Maya, 3ds Max, Adobe, Substance, Zbrush, Nuke',
+                'software_ua' => 'Software: CINEMA 4D, Houdini, Blender, Maya, 3ds Max, Adobe, Substance, Zbrush, Nuke',
+                'software_ru' => 'Software: CINEMA 4D, Houdini, Blender, Maya, 3ds Max, Adobe, Substance, Zbrush, Nuke',
+                'software_de' => 'Software: CINEMA 4D, Houdini, Blender, Maya, 3ds Max, Adobe, Substance, Zbrush, Nuke',
             ],
 
             [
-                'name_en' => 'Job 2',
-                'name_ua' => 'Job 2',
-                'name_ru' => 'Job 2',
-                'name_de' => 'Job 2',
+                'name_en' => 'CG Compositor',
+                'name_ua' => 'CG Compositor',
+                'name_ru' => 'CG Compositor',
+                'name_de' => 'CG Compositor',
+
+                'description_en' => 'Job description: CG live action compositing using Nuke.',
+                'description_ua' => 'Job description: CG live action compositing using Nuke.',
+                'description_ru' => 'Job description: CG live action compositing using Nuke.',
+                'description_de' => 'Job description: CG live action compositing using Nuke.',
+
+                'software_en' => 'Software: CINEMA 4D, Houdini, Blender, Maya, 3ds Max, Adobe, Substance, Zbrush, Nuke',
+                'software_ua' => 'Software: CINEMA 4D, Houdini, Blender, Maya, 3ds Max, Adobe, Substance, Zbrush, Nuke',
+                'software_ru' => 'Software: CINEMA 4D, Houdini, Blender, Maya, 3ds Max, Adobe, Substance, Zbrush, Nuke',
+                'software_de' => 'Software: CINEMA 4D, Houdini, Blender, Maya, 3ds Max, Adobe, Substance, Zbrush, Nuke',
             ],
 
             [
-                'name_en' => 'Job 3',
-                'name_ua' => 'Job 3',
-                'name_ru' => 'Job 3',
-                'name_de' => 'Job 3',
+                'name_en' => 'Chief',
+                'name_ua' => 'Chief',
+                'name_ru' => 'Chief',
+                'name_de' => 'Chief',
+
+                'description_en' => 'Job description: Product quality management of local staff.',
+                'description_ua' => 'Job description: Product quality management of local staff.',
+                'description_ru' => 'Job description: Product quality management of local staff.',
+                'description_de' => 'Job description: Product quality management of local staff.',
+
+                'software_en' => 'Software: CINEMA 4D, Houdini, Blender, Maya, 3ds Max, Adobe, Substance, Zbrush, Nuke',
+                'software_ua' => 'Software: CINEMA 4D, Houdini, Blender, Maya, 3ds Max, Adobe, Substance, Zbrush, Nuke',
+                'software_ru' => 'Software: CINEMA 4D, Houdini, Blender, Maya, 3ds Max, Adobe, Substance, Zbrush, Nuke',
+                'software_de' => 'Software: CINEMA 4D, Houdini, Blender, Maya, 3ds Max, Adobe, Substance, Zbrush, Nuke',
             ],
         ]);
     }

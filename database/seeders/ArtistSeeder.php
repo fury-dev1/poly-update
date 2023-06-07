@@ -15,14 +15,14 @@ class ArtistSeeder extends Seeder
     {
         DB::table('artists')->insert([
             [
-                'code' => 'mishio_hirai',
+                'code' => 'masaki_mizuno',
 
-                'title' => 'polygonerds | Mishio Hirai | Design Company',
+                'title' => 'polygonerds | Masaki Mizuno | Design Company',
 
-                'name_en' => 'Masaki Mizuno EN',
-                'name_ua' => 'Masaki Mizuno UA',
-                'name_ru' => 'Masaki Mizuno RU',
-                'name_de' => 'Masaki Mizuno DE',
+                'name_en' => 'Masaki Mizuno',
+                'name_ua' => 'Masaki Mizuno',
+                'name_ru' => 'Masaki Mizuno',
+                'name_de' => 'Masaki Mizuno',
 
                 'position_en' => 'CEO / Founder | Online Editor / Producer',
                 'position_ua' => 'CEO / Founder | Online Editor / Producer',
@@ -42,10 +42,10 @@ class ArtistSeeder extends Seeder
 
                 'title' => 'polygonerds | Yota Tasaki | Design Company',
 
-                'name_en' => 'Yota Tasaki EN',
-                'name_ua' => 'Yota Tasaki UA',
-                'name_ru' => 'Yota Tasaki RU',
-                'name_de' => 'Yota Tasaki DE',
+                'name_en' => 'Yota Tasaki',
+                'name_ua' => 'Yota Tasaki',
+                'name_ru' => 'Yota Tasaki',
+                'name_de' => 'Yota Tasaki',
 
                 'position_en' => 'Co-Founder | CG Director / Environment Design',
                 'position_ua' => 'Co-Founder | CG Director / Environment Design',
@@ -61,14 +61,14 @@ class ArtistSeeder extends Seeder
                 'image_sqr' => 'artists/photo_Anton_square.png',
             ],
             [
-                'code' => 'hirokazu_yokohara',
+                'code' => 'mishio_hirai',
 
-                'title' => 'polygonerds | Hirokazu Yokohara | Design Company',
+                'title' => 'polygonerds | Mishio Hirai | Design Company',
 
-                'name_en' => 'Hirokazu Yokohara EN',
-                'name_ua' => 'Hirokazu Yokohara UA',
-                'name_ru' => 'Hirokazu Yokohara RU',
-                'name_de' => 'Hirokazu Yokohara DE',
+                'name_en' => 'Mishio Hirai',
+                'name_ua' => 'Mishio Hirai',
+                'name_ru' => 'Mishio Hirai',
+                'name_de' => 'Mishio Hirai',
 
                 'position_en' => 'Co-Founder | CG Director / Art Director',
                 'position_ua' => 'Co-Founder | CG Director / Art Director',
@@ -88,10 +88,10 @@ class ArtistSeeder extends Seeder
 
                 'title' => 'polygonerds | Keitaro Toyoda | Design Company',
 
-                'name_en' => 'Keitaro Toyoda EN',
-                'name_ua' => 'Keitaro Toyoda UA',
-                'name_ru' => 'Keitaro Toyoda RU',
-                'name_de' => 'Keitaro Toyoda DE',
+                'name_en' => 'Keitaro Toyoda',
+                'name_ua' => 'Keitaro Toyoda',
+                'name_ru' => 'Keitaro Toyoda',
+                'name_de' => 'Keitaro Toyoda',
 
                 'position_en' => 'Diector / Motion Designer',
                 'position_ua' => 'Diector / Motion Designer',
@@ -111,10 +111,10 @@ class ArtistSeeder extends Seeder
 
                 'title' => 'polygonerds | Mami Watanabe | Design Company',
 
-                'name_en' => 'Mami Watanabe EN',
-                'name_ua' => 'Mami Watanabe UA',
-                'name_ru' => 'Mami Watanabe RU',
-                'name_de' => 'Mami Watanabe DE',
+                'name_en' => 'Mami Watanabe',
+                'name_ua' => 'Mami Watanabe',
+                'name_ru' => 'Mami Watanabe',
+                'name_de' => 'Mami Watanabe',
 
                 'position_en' => 'Online Editor',
                 'position_ua' => 'Online Editor',

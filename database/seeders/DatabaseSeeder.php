@@ -21,7 +21,9 @@ class DatabaseSeeder extends Seeder
             PageSeeder::class,
             FieldSeeder::class,
             FieldPageSeeder::class,
-            FileSeeder::class
+            FileSeeder::class,
+            ArtistWorkSeeder::class,
+            SoftwareWorkSeeder::class,
         ]);
     }
 }
